@@ -41,8 +41,4 @@ Thumbs.db
 .streamlit/secrets.toml
 
 # Project specific
-sample_gpt.txt
-.claude/
 streamlit.log
-Task.md
-Sample.png
