@@ -9,14 +9,14 @@ A Streamlit-based application that converts natural language questions into SQL 
 1. [Overview](#overview)
 2. [How It Works](#how-it-works)
 3. [Architecture](#architecture)
-4. [Project Structure](#project-structure)
-5. [Setup Instructions](#setup-instructions)
-6. [Configuration](#configuration)
-7. [Database Schema](#database-schema)
-8. [Example Queries](#example-queries)
-9. [Security Features](#security-features)
-10. [Tech Stack](#tech-stack)
-11. [Author](#author)
+<!-- 4. [Project Structure](#project-structure) -->
+4. [Setup Instructions](#setup-instructions)
+5. [Configuration](#configuration)
+6. [Database Schema](#database-schema)
+7. [Example Queries](#example-queries)
+8. [Security Features](#security-features)
+9. [Tech Stack](#tech-stack)
+10. [Author](#author)
 
 ---
 
@@ -169,7 +169,7 @@ This application allows users to query a database using plain English instead of
 ```
 
 ---
-
+<!-- 
 ## Project Structure
 
 ```
@@ -239,7 +239,7 @@ text-to-sql-app/
     └── config.toml         # Streamlit theme config
                             # - Dark theme colors
                             # - Layout settings
-```
+``` -->
 
 ---
 
@@ -301,7 +301,7 @@ text-to-sql-app/
    ```
    http://localhost:8501
    ```
-
+<!-- 
 ### Streamlit Cloud Deployment
 
 1. Push code to GitHub (public repository)
@@ -321,7 +321,7 @@ text-to-sql-app/
    https://your-username-app-name.streamlit.app
    ```
 
----
+--- -->
 
 ## Configuration
 
@@ -454,7 +454,7 @@ plotly>=5.18.0         # Interactive charts
 python-dotenv>=1.0.0   # Environment variables
 ```
 
----
+<!-- ---
 
 ## Troubleshooting
 
@@ -476,7 +476,7 @@ python-dotenv>=1.0.0   # Environment variables
    - SQL might be correct but data doesn't exist
    - Check the explanation for query logic
 
----
+--- -->
 
 ## Author
 
